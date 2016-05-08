@@ -2,14 +2,153 @@
 .sidebar-closed > #sidebar > ul {
     display: none;
 }
-
 .sidebar-closed #main-content {
     margin-left: 0px;
 }
-
 .sidebar-closed #sidebar {
     margin-left: -180px;
 }
-
-/*Escribe aqui tu codigo */
-
+/*----------------Escribe aquí tu código---------------*/
+#sidebar{
+	position:fixed;
+	height:100%;
+	margin-left:-180px;
+}
+header{
+	display:inline-block;
+	position:fixed;
+	z-index:100;
+}
+.nav-collapse{
+	width:180px;
+}
+.img-responsive,.sub.menu li a,iframe,header{
+	width:100%;
+}
+ul{
+	padding:0;
+	list-style:none;
+}
+.sub-menu a,.details a, .buttons a,table a:hover,.logo:hover{
+	text-decoration:none;
+}
+.ds h3, .sidebar-menu h5,.box0,.form-login h2,
+.registration{
+	text-align:center;
+}
+.sidebar-toggle-box,.logo,.top-menu{
+	display:inline;
+}
+.top-menu li,.nav li a:hover{
+	border-radius:5px;
+}
+.sidebar-menu h5,.details a:hover,.buttons a:hover,.nav li a:hover,table a:hover{
+	font-weight:bold;
+}
+.ds h3,.checkbox span{
+	font-weight:normal;
+}
+.box1 span{
+	font-size:40px;
+}
+.ds h3{
+	font-size:16px;
+}
+.desc,.logout,.sub-menu span{
+	font-size:11px;
+}
+.details muted{
+	font-style:italic;
+}
+.form-login-heading,.details muted{
+	text-transform:uppercase;
+}
+#container,body{
+	background:#F2F2F2;
+}
+.sub-menu:active{
+	background:#E26EAB;
+}
+.showback,.box0:hover,.ds,.form-panel,.login-wrap{
+	background:#FFFFFF;
+}
+header,#sidebar{
+	background:#424A5D;
+}
+.ds h3,.top-menu li,.sub-menu:hover,.nav li a:hover{
+	background:#9C4C9D;
+}
+.badge,.fa-clock-o,.form-login-heading{
+	background:#68DFF0;
+}
+.box0>p{
+	visibility: hidden;
+}
+.box0:hover p{
+	visibility: visible;
+	font-size:10px;
+	color:rgba(255,0,0,0.6);
+	margin-top:5px;
+}
+.box0,#main-content{
+	color:#989898;
+}
+#login-page{
+	color:#797979;
+}
+.sidebar-menu h5,.logo b,.fa-bars,.ds h3,
+.top-menu a,.sub-menu:hover a,.sub-menu a,
+.form-login-heading{
+	color:#FFFFFF;
+}
+.thumb,.details{
+	display:inline-block;
+	vertical-align:text-top;
+	color:#878787;
+}
+.desc{
+	padding:10px 0px 10px 0px;
+}
+.showback,.sub-menu a,.form-panel,.project-wrapper,#main-content,
+.header,.ds h3,.sub-menu{
+	padding:10px;
+}
+.form-login-heading,.login-wrap,.box1 span{
+	padding:20px;
+}
+#main-content,#sidebar,.form-login{
+	padding-top:40px;
+}
+.showback,.box0:hover,.form-panel{
+	box-shadow: 0px 2px 2px #AAB2BD;
+	margin-bottom:10px;
+}
+#sidebar,#main-content section,.registration{
+	margin-top:30px;
+}
+.photo,.buttons a{
+	margin-right:10px;
+}
+header .fa,aside .fa,.form-panel{
+	margin:10px 5px 10px 5px;
+}
+.page-header,.box1 h3{
+	margin-top:0px;
+}
+.form-login-heading{
+	margin-bottom:0px;
+	border-radius:5px 5px 0px 0px;
+}
+.header{
+	border-bottom:2px solid #293241;
+}
+.box1{
+	border-bottom:1px solid LightGrey;
+}
+.box0:hover .box1,.form-login-heading{
+	border-bottom:none;
+}
+.divider,.ds .desc{
+	border-top:0px;
+	border-bottom:1px solid #EAEAEA;
+}
