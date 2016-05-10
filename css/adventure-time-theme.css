@@ -9,6 +9,12 @@
     margin-left: -180px;
 }
 /*----------------Escribe aquí tu código---------------*/
+@media (max-width:767px){
+	.visible-xs{
+		display:inline !important;
+	}
+	
+}
 #sidebar{
 	position:fixed;
 	height:100%;
